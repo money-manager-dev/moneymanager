@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://money-manager-dev.github.io/moneymanager/sitemap.xml
