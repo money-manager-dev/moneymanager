@@ -72,6 +72,53 @@
             height: 64px;
         }
 
+        .subtitle {
+            font-size: 1.05rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto 32px;
+            line-height: 1.6;
+        }
+
+        .why {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 24px 48px;
+            text-align: center;
+        }
+
+        .why h2 {
+            font-size: 1.8rem;
+            color: #f8fafc;
+            margin-bottom: 16px;
+        }
+
+        .why p {
+            font-size: 1.05rem;
+            color: #94a3b8;
+            line-height: 1.7;
+        }
+
+        .cta {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px 24px 60px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 1.8rem;
+            color: #f8fafc;
+            margin-bottom: 12px;
+        }
+
+        .cta p {
+            font-size: 1.05rem;
+            color: #94a3b8;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
         .features {
             max-width: 800px;
             margin: 0 auto;
@@ -150,6 +197,9 @@
             .hero { padding: 40px 16px 24px; }
             .features { padding: 12px 16px 40px; gap: 16px; }
             .stats { gap: 24px; flex-wrap: wrap; }
+            .why { padding: 0 16px 32px; }
+            .why h2, .cta h2 { font-size: 1.4rem; }
+            .cta { padding: 12px 16px 40px; }
         }
     </style>
 
@@ -246,42 +296,48 @@
     <section class="hero">
         <img src="icon.png" alt="Money Manager App Icon" class="app-icon">
         <h1>Money Manager</h1>
-        <p class="tagline">Simple expense tracker and budget planner for Android</p>
+        <p class="tagline">Track your expenses. Know where your money goes.</p>
+        <p class="subtitle">A personal finance app to manage your money — track daily expenses and income, plan your budget, and see spending reports. Simple, free, and works completely offline.</p>
         <a href="https://play.google.com/store/apps/details?id=com.frmobile.moneymanager" class="play-badge" aria-label="Get it on Google Play">
             <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="64">
         </a>
     </section>
 
+    <section class="why">
+        <h2>Why Money Manager?</h2>
+        <p>Managing money is hard. Small purchases add up, and without a clear record, you never know how much you really spend. Money Manager makes it simple — record expenses and income as they happen, manage your money confidently, and make smarter budget decisions.</p>
+    </section>
+
     <section class="features">
         <div class="feature">
             <div class="feature-icon">📊</div>
-            <h3>Track Expenses & Income</h3>
-            <p>Log every transaction with amount, category, date, and note. See exactly where your money goes.</p>
+            <h3>Daily Expense & Income Tracker</h3>
+            <p>Log every expense and income with amount, category, date, and note. Organize finances with custom categories you create, edit, and reorder.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">📈</div>
+            <h3>Budget Reports with Pie Charts</h3>
+            <p>See where your money goes with visual spending reports by category. Switch between monthly and total balance. Drill into any category to see transactions and trends.</p>
         </div>
         <div class="feature">
             <div class="feature-icon">📅</div>
             <h3>Calendar View</h3>
-            <p>See daily spending on a monthly calendar grid. Tap any day to view transactions at a glance.</p>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">📈</div>
-            <h3>Spending Reports</h3>
-            <p>Visual pie charts by category. Monthly and total balance views. Drill into category details and trends.</p>
+            <p>See daily expenses and income on a monthly calendar grid. Each day shows totals at a glance — tap any day to view transactions. Customize your week start day.</p>
         </div>
         <div class="feature">
             <div class="feature-icon">☁️</div>
             <h3>Google Drive Backup</h3>
-            <p>Auto-sync your data to Google Drive. Plus device backup for complete control over your finances.</p>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">📴</div>
-            <h3>Works Offline</h3>
-            <p>No internet required. No account needed. Your financial data stays private and secure on your device.</p>
+            <p>Automatically sync your data to Google Drive. Money Manager keeps up to 10 backup files. Also supports device backup — export and restore your complete history with one tap.</p>
         </div>
         <div class="feature">
             <div class="feature-icon">🔔</div>
-            <h3>Smart Reminders</h3>
-            <p>Personalized daily reminders with your actual spending data — not generic notifications.</p>
+            <h3>Smart Daily Reminders</h3>
+            <p>Money Manager sends personalized reminders with your actual spending data — not generic notifications. Get a daily summary plus a monthly spending report to review your finances.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">📴</div>
+            <h3>Works Completely Offline</h3>
+            <p>No internet required. No account needed. No complex setup. Your financial data stays private and secure on your device. Open the app, log your expense, done.</p>
         </div>
     </section>
 
@@ -298,6 +354,14 @@
             <div class="stat-number">0</div>
             <div class="stat-label">Ads</div>
         </div>
+    </section>
+
+    <section class="cta">
+        <h2>Start tracking your expenses today</h2>
+        <p>Whether you need a daily expense tracker, budget planner, or personal finance app — Money Manager is the smart way to manage money.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.frmobile.moneymanager" class="play-badge" aria-label="Get it on Google Play">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="64">
+        </a>
     </section>
 
     <footer>
